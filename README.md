@@ -30,5 +30,5 @@ python topsis.py data.csv "1,1,1,1,1" "+,+,+,+,+" output.csv
 ---
 
 ## Output Format
-![alt text](output.png)
+![alt text](images/image.png)
 
