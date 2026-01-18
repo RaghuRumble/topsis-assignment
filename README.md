@@ -2,13 +2,13 @@
 
 ## PART-1: Implementing TOPSIS
 
-## Overview
+### Overview
 This project implements the TOPSIS (Technique for Order Preference by Similarity to Ideal Solution)
 method in Python to rank alternatives based on multiple criteria.
 
 ---
 
-## Methodology
+### Methodology
 1. Read input data from a CSV/Excel file.
 2. Normalize the decision matrix.
 3. Apply user-defined weights.
@@ -18,7 +18,7 @@ method in Python to rank alternatives based on multiple criteria.
 
 ---
 
-## Input Format
+### Input Format
 - First column: Alternative names
 - Remaining columns: Numeric criteria
 - Weights and impacts provided via command line
@@ -29,7 +29,7 @@ python topsis.py data.csv "1,1,1,1,1" "+,+,+,+,+" output.csv
 ```
 ---
 
-## Output Format
+### Output Format
 ![alt text](images/image.png)
 
 ## PART-3: TOPSIS Web Service
@@ -90,7 +90,9 @@ The web service runs locally using Flask on: http://127.0.0.1:5000
 4. output received by user via mail
    ![alt text](images/img4.png)
 
+---
+
 ### Note
 The web service is implemented and demonstrated locally using `localhost`.
-Deployment to a public server is not required as per the assignment instructions.
+
 
