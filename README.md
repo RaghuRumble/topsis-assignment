@@ -27,10 +27,35 @@ Example:
 ```bash
 python topsis.py data.csv "1,1,1,1,1" "+,+,+,+,+" output.csv
 ```
+
 ---
 
 ### Output Format
 ![alt text](images/image.png)
+
+---
+
+## PART-2: Python Package (PyPI)
+
+### Package Name
+topsis-yash-102303796
+
+---
+
+### PyPI Link
+https://pypi.org/project/topsis-yash-102303796/1.0.4/
+
+---
+
+### Installation
+pip install topsis-yash-102303796
+
+---
+
+### Usage
+topsis input.csv "1,1,1,1,1" "+,+,+,+,+" output.csv
+
+---
 
 ## PART-3: TOPSIS Web Service
 
@@ -83,10 +108,13 @@ The web service runs locally using Flask on: http://127.0.0.1:5000
 ### Demonstration
 1. required input
    ![alt text](images/img1.png)
+
 2. user entered input
    ![alt text](images/img2.png)
+
 3. email sent confirmation
    ![alt text](images/img3.png)
+
 4. output received by user via mail
    ![alt text](images/img4.png)
 
